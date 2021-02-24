@@ -1,0 +1,54 @@
+.sample-table-container {
+  width: 50em;
+  background-color: rgb(71, 71, 71);
+  padding: 2em;
+  border-radius: 0.2em;
+  border: none;
+  margin: auto auto 2em auto;
+}
+
+.dash-table-container {
+  width: 50em;
+  position: absolute;
+  margin: auto auto auto auto;
+}
+
+#header {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  background-color: rgb(194, 194, 194);
+}
+
+.body-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.scattervar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(71, 71, 71);
+  padding: 1em 0.2em 1em 0.2em;
+  border-radius: 0.3em;
+  border: none;
+}
+
+#scatter-dropdown {
+  width: 10em;
+}
+
+.outlier-container,
+.dist-container {
+  width: 70em;
+  margin: 1em auto auto auto;
+}
+
+#box-h3,
+#dist-h3 {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
