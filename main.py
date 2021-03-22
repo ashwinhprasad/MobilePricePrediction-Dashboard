@@ -266,8 +266,6 @@ app.layout = html.Div([
         ],className="parameter-div"),
     
         html.Div([
-
-            html.H3(children="Make Predictions",id='prediction-header'),
             dcc.Input(
                 type="number",
                 placeholder="Battery Power",

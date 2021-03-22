@@ -1,6 +1,6 @@
 .sample-table-container {
   width: 50em;
-  background-color: rgb(71, 71, 71);
+  background-color: rgb(65, 146, 253);
   padding: 2em;
   border-radius: 0.2em;
   border: none;
@@ -19,7 +19,7 @@
 }
 
 body {
-  background-color: rgb(194, 194, 194);
+  background-color: rgb(255, 255, 255);
 }
 
 .body-container {
@@ -31,7 +31,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: rgb(71, 71, 71);
+  background-color: rgb(65, 146, 253);
   padding: 1em 0.2em 1em 0.2em;
   border-radius: 0.3em;
   border: none;
@@ -57,14 +57,21 @@ body {
 .para-pred-container{
   display: flex;
   flex-direction: row;
-  background-color: rgb(71, 71, 71);
+  background-color: rgb(65, 146, 253);
   justify-content: space-around;
   padding: 1em;
+  border-radius:0.3em;
 }
 
 .predict-container{
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin:auto auto auto 1em;
+}
+
+.predict-container > input {
+  margin-top:0.5em;
+  padding:0.5em 0.3em 0.5em 0.3em;
 }
 
 .parameter-div{
